@@ -26,5 +26,7 @@ public class EbaySearchResultSteps {
 	@When("^Select the first shirt on item list$")
 	public void select_the_first_shirt_on_item_list() throws Throwable {
 		EbaySearchResultActionsObj.selectBigTallTee();
+	
+		
 	}
 }
