@@ -31,7 +31,7 @@ public class ShettyHomepageActions {
 			
 			SetupDrivers.driver.switchTo().frame(i);
 			
-			try{
+			try{    // to handle expection 
 				ShettyHomepageLocatorsObj.btnHome.click();
 			} catch (Exception e){
 				System.out.println("Element not found in iframe");
